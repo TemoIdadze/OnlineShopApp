@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A69433FA-6E04-4F2C-86D0-F0F8717D8EDE}|OnlineShop.Persistence\\OnlineShop.Persistence.csproj|c:\\users\\temoi\\desktop\\onlineshop\\onlineshop.ge\\onlineshop.persistence\\seed\\shopdbseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A69433FA-6E04-4F2C-86D0-F0F8717D8EDE}|OnlineShop.Persistence\\OnlineShop.Persistence.csproj|solutionrelative:onlineshop.persistence\\seed\\shopdbseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64AAE3D2-3FDD-4258-9F92-DE0D165E40F6}|OnlineShop.Ge.API\\OnlineShop.Ge.API.csproj|c:\\users\\temoi\\desktop\\onlineshop\\onlineshop.ge\\onlineshop.ge.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64AAE3D2-3FDD-4258-9F92-DE0D165E40F6}|OnlineShop.Ge.API\\OnlineShop.Ge.API.csproj|solutionrelative:onlineshop.ge.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64AAE3D2-3FDD-4258-9F92-DE0D165E40F6}|OnlineShop.Ge.API\\OnlineShop.Ge.API.csproj|c:\\users\\temoi\\desktop\\onlineshop\\onlineshop.ge\\onlineshop.ge.api\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64AAE3D2-3FDD-4258-9F92-DE0D165E40F6}|OnlineShop.Ge.API\\OnlineShop.Ge.API.csproj|solutionrelative:onlineshop.ge.api\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B1244E5-ACF6-42C6-AD1D-D48D0BEDCEED}|OnlineShop.Application\\OnlineShop.Application.csproj|c:\\users\\temoi\\desktop\\onlineshop\\onlineshop.ge\\onlineshop.application\\exceptionhandling\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B1244E5-ACF6-42C6-AD1D-D48D0BEDCEED}|OnlineShop.Application\\OnlineShop.Application.csproj|solutionrelative:onlineshop.application\\exceptionhandling\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 205,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShopDbSeed.cs",
+              "DocumentMoniker": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Persistence\\Seed\\ShopDbSeed.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Persistence\\Seed\\ShopDbSeed.cs",
+              "ToolTip": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Persistence\\Seed\\ShopDbSeed.cs",
+              "RelativeToolTip": "OnlineShop.Persistence\\Seed\\ShopDbSeed.cs",
+              "ViewState": "AgIAAM0BAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T18:50:11.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Ge.API\\Program.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Ge.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Ge.API\\Program.cs",
+              "RelativeToolTip": "OnlineShop.Ge.API\\Program.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAvwHgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T18:48:43.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Ge.API\\Middlewares\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Ge.API\\Middlewares\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Ge.API\\Middlewares\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "OnlineShop.Ge.API\\Middlewares\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T18:48:31.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GlobalExceptionHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Application\\ExceptionHandling\\GlobalExceptionHandler.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Application\\ExceptionHandling\\GlobalExceptionHandler.cs",
+              "ToolTip": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Application\\ExceptionHandling\\GlobalExceptionHandler.cs",
+              "RelativeToolTip": "OnlineShop.Application\\ExceptionHandling\\GlobalExceptionHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T18:48:03.049Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -40,3 +40,56 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# ================================
+# .NET / Visual Studio
+# ================================
+
+## Build results
+.vs/
+bin/
+obj/
+out/
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Rider / VS Code
+.idea/
+.vscode/
+
+## ASP.NET
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json
+
+## Logs
+*.log
+logs/
+
+## Secrets
+secrets.json
+*.pfx
+*.snk
+
+## OS
+.DS_Store
+Thumbs.db
+
+## Test results
+TestResults/
+
+## NuGet
+.nuget/
+packages/
+
+## Publish output
+publish/
+
+## Database
+*.mdf
+*.ldf
+*.sqlite

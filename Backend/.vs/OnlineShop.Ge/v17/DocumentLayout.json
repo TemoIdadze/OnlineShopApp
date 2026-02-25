@@ -1,0 +1,615 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{64AAE3D2-3FDD-4258-9F92-DE0D165E40F6}|OnlineShop.Ge.API\\OnlineShop.Ge.API.csproj|c:\\users\\temoi\\desktop\\onlineshop\\onlineshop.ge\\onlineshop.ge.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64AAE3D2-3FDD-4258-9F92-DE0D165E40F6}|OnlineShop.Ge.API\\OnlineShop.Ge.API.csproj|solutionrelative:onlineshop.ge.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32228A78-81F0-438D-888C-9DE8CB8515BD}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|c:\\users\\temoi\\desktop\\onlineshop\\onlineshop.ge\\onlineshop.infrastructure\\users\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32228A78-81F0-438D-888C-9DE8CB8515BD}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|solutionrelative:onlineshop.infrastructure\\users\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32228A78-81F0-438D-888C-9DE8CB8515BD}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|c:\\users\\temoi\\desktop\\onlineshop\\onlineshop.ge\\onlineshop.infrastructure\\cartitems\\cartitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32228A78-81F0-438D-888C-9DE8CB8515BD}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|solutionrelative:onlineshop.infrastructure\\cartitems\\cartitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32228A78-81F0-438D-888C-9DE8CB8515BD}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|c:\\users\\temoi\\desktop\\onlineshop\\onlineshop.ge\\onlineshop.infrastructure\\products\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32228A78-81F0-438D-888C-9DE8CB8515BD}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|solutionrelative:onlineshop.infrastructure\\products\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B1244E5-ACF6-42C6-AD1D-D48D0BEDCEED}|OnlineShop.Application\\OnlineShop.Application.csproj|c:\\users\\temoi\\desktop\\onlineshop\\onlineshop.ge\\onlineshop.application\\products\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B1244E5-ACF6-42C6-AD1D-D48D0BEDCEED}|OnlineShop.Application\\OnlineShop.Application.csproj|solutionrelative:onlineshop.application\\products\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B1244E5-ACF6-42C6-AD1D-D48D0BEDCEED}|OnlineShop.Application\\OnlineShop.Application.csproj|c:\\users\\temoi\\desktop\\onlineshop\\onlineshop.ge\\onlineshop.application\\cartitems\\repositories\\icartitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B1244E5-ACF6-42C6-AD1D-D48D0BEDCEED}|OnlineShop.Application\\OnlineShop.Application.csproj|solutionrelative:onlineshop.application\\cartitems\\repositories\\icartitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B1244E5-ACF6-42C6-AD1D-D48D0BEDCEED}|OnlineShop.Application\\OnlineShop.Application.csproj|c:\\users\\temoi\\desktop\\onlineshop\\onlineshop.ge\\onlineshop.application\\products\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B1244E5-ACF6-42C6-AD1D-D48D0BEDCEED}|OnlineShop.Application\\OnlineShop.Application.csproj|solutionrelative:onlineshop.application\\products\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B1244E5-ACF6-42C6-AD1D-D48D0BEDCEED}|OnlineShop.Application\\OnlineShop.Application.csproj|c:\\users\\temoi\\desktop\\onlineshop\\onlineshop.ge\\onlineshop.application\\products\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B1244E5-ACF6-42C6-AD1D-D48D0BEDCEED}|OnlineShop.Application\\OnlineShop.Application.csproj|solutionrelative:onlineshop.application\\products\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B1244E5-ACF6-42C6-AD1D-D48D0BEDCEED}|OnlineShop.Application\\OnlineShop.Application.csproj|c:\\users\\temoi\\desktop\\onlineshop\\onlineshop.ge\\onlineshop.application\\cartitems\\cartitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B1244E5-ACF6-42C6-AD1D-D48D0BEDCEED}|OnlineShop.Application\\OnlineShop.Application.csproj|solutionrelative:onlineshop.application\\cartitems\\cartitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B1244E5-ACF6-42C6-AD1D-D48D0BEDCEED}|OnlineShop.Application\\OnlineShop.Application.csproj|c:\\users\\temoi\\desktop\\onlineshop\\onlineshop.ge\\onlineshop.application\\cartitems\\icartitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B1244E5-ACF6-42C6-AD1D-D48D0BEDCEED}|OnlineShop.Application\\OnlineShop.Application.csproj|solutionrelative:onlineshop.application\\cartitems\\icartitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A69433FA-6E04-4F2C-86D0-F0F8717D8EDE}|OnlineShop.Persistence\\OnlineShop.Persistence.csproj|c:\\users\\temoi\\desktop\\onlineshop\\onlineshop.ge\\onlineshop.persistence\\context\\shopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A69433FA-6E04-4F2C-86D0-F0F8717D8EDE}|OnlineShop.Persistence\\OnlineShop.Persistence.csproj|solutionrelative:onlineshop.persistence\\context\\shopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64AAE3D2-3FDD-4258-9F92-DE0D165E40F6}|OnlineShop.Ge.API\\OnlineShop.Ge.API.csproj|c:\\users\\temoi\\desktop\\onlineshop\\onlineshop.ge\\onlineshop.ge.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64AAE3D2-3FDD-4258-9F92-DE0D165E40F6}|OnlineShop.Ge.API\\OnlineShop.Ge.API.csproj|solutionrelative:onlineshop.ge.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DCBDB2-0D3D-4206-940C-352FE24175B6}|OnlineShop.Domain\\OnlineShop.Domain.csproj|c:\\users\\temoi\\desktop\\onlineshop\\onlineshop.ge\\onlineshop.domain\\cartitems\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DCBDB2-0D3D-4206-940C-352FE24175B6}|OnlineShop.Domain\\OnlineShop.Domain.csproj|solutionrelative:onlineshop.domain\\cartitems\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64AAE3D2-3FDD-4258-9F92-DE0D165E40F6}|OnlineShop.Ge.API\\OnlineShop.Ge.API.csproj|c:\\users\\temoi\\desktop\\onlineshop\\onlineshop.ge\\onlineshop.ge.api\\onlineshop.ge.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{64AAE3D2-3FDD-4258-9F92-DE0D165E40F6}|OnlineShop.Ge.API\\OnlineShop.Ge.API.csproj|solutionrelative:onlineshop.ge.api\\onlineshop.ge.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64AAE3D2-3FDD-4258-9F92-DE0D165E40F6}|OnlineShop.Ge.API\\OnlineShop.Ge.API.csproj|c:\\users\\temoi\\desktop\\onlineshop\\onlineshop.ge\\onlineshop.ge.api\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64AAE3D2-3FDD-4258-9F92-DE0D165E40F6}|OnlineShop.Ge.API\\OnlineShop.Ge.API.csproj|solutionrelative:onlineshop.ge.api\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DCBDB2-0D3D-4206-940C-352FE24175B6}|OnlineShop.Domain\\OnlineShop.Domain.csproj|c:\\users\\temoi\\desktop\\onlineshop\\onlineshop.ge\\onlineshop.domain\\onlineshop.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F6DCBDB2-0D3D-4206-940C-352FE24175B6}|OnlineShop.Domain\\OnlineShop.Domain.csproj|solutionrelative:onlineshop.domain\\onlineshop.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DCBDB2-0D3D-4206-940C-352FE24175B6}|OnlineShop.Domain\\OnlineShop.Domain.csproj|c:\\users\\temoi\\desktop\\onlineshop\\onlineshop.ge\\onlineshop.domain\\products\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DCBDB2-0D3D-4206-940C-352FE24175B6}|OnlineShop.Domain\\OnlineShop.Domain.csproj|solutionrelative:onlineshop.domain\\products\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B1244E5-ACF6-42C6-AD1D-D48D0BEDCEED}|OnlineShop.Application\\OnlineShop.Application.csproj|c:\\users\\temoi\\desktop\\onlineshop\\onlineshop.ge\\onlineshop.application\\exceptionhandling\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B1244E5-ACF6-42C6-AD1D-D48D0BEDCEED}|OnlineShop.Application\\OnlineShop.Application.csproj|solutionrelative:onlineshop.application\\exceptionhandling\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A69433FA-6E04-4F2C-86D0-F0F8717D8EDE}|OnlineShop.Persistence\\OnlineShop.Persistence.csproj|c:\\users\\temoi\\desktop\\onlineshop\\onlineshop.ge\\onlineshop.persistence\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A69433FA-6E04-4F2C-86D0-F0F8717D8EDE}|OnlineShop.Persistence\\OnlineShop.Persistence.csproj|solutionrelative:onlineshop.persistence\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A69433FA-6E04-4F2C-86D0-F0F8717D8EDE}|OnlineShop.Persistence\\OnlineShop.Persistence.csproj|c:\\users\\temoi\\desktop\\onlineshop\\onlineshop.ge\\onlineshop.persistence\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A69433FA-6E04-4F2C-86D0-F0F8717D8EDE}|OnlineShop.Persistence\\OnlineShop.Persistence.csproj|solutionrelative:onlineshop.persistence\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B1244E5-ACF6-42C6-AD1D-D48D0BEDCEED}|OnlineShop.Application\\OnlineShop.Application.csproj|c:\\users\\temoi\\desktop\\onlineshop\\onlineshop.ge\\onlineshop.application\\onlineshop.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4B1244E5-ACF6-42C6-AD1D-D48D0BEDCEED}|OnlineShop.Application\\OnlineShop.Application.csproj|solutionrelative:onlineshop.application\\onlineshop.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B1244E5-ACF6-42C6-AD1D-D48D0BEDCEED}|OnlineShop.Application\\OnlineShop.Application.csproj|c:\\users\\temoi\\desktop\\onlineshop\\onlineshop.ge\\onlineshop.application\\users\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B1244E5-ACF6-42C6-AD1D-D48D0BEDCEED}|OnlineShop.Application\\OnlineShop.Application.csproj|solutionrelative:onlineshop.application\\users\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B1244E5-ACF6-42C6-AD1D-D48D0BEDCEED}|OnlineShop.Application\\OnlineShop.Application.csproj|c:\\users\\temoi\\desktop\\onlineshop\\onlineshop.ge\\onlineshop.application\\users\\custompasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B1244E5-ACF6-42C6-AD1D-D48D0BEDCEED}|OnlineShop.Application\\OnlineShop.Application.csproj|solutionrelative:onlineshop.application\\users\\custompasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A69433FA-6E04-4F2C-86D0-F0F8717D8EDE}|OnlineShop.Persistence\\OnlineShop.Persistence.csproj|c:\\users\\temoi\\desktop\\onlineshop\\onlineshop.ge\\onlineshop.persistence\\seed\\shopdbseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A69433FA-6E04-4F2C-86D0-F0F8717D8EDE}|OnlineShop.Persistence\\OnlineShop.Persistence.csproj|solutionrelative:onlineshop.persistence\\seed\\shopdbseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B1244E5-ACF6-42C6-AD1D-D48D0BEDCEED}|OnlineShop.Application\\OnlineShop.Application.csproj|c:\\users\\temoi\\desktop\\onlineshop\\onlineshop.ge\\onlineshop.application\\users\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B1244E5-ACF6-42C6-AD1D-D48D0BEDCEED}|OnlineShop.Application\\OnlineShop.Application.csproj|solutionrelative:onlineshop.application\\users\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DCBDB2-0D3D-4206-940C-352FE24175B6}|OnlineShop.Domain\\OnlineShop.Domain.csproj|c:\\users\\temoi\\desktop\\onlineshop\\onlineshop.ge\\onlineshop.domain\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DCBDB2-0D3D-4206-940C-352FE24175B6}|OnlineShop.Domain\\OnlineShop.Domain.csproj|solutionrelative:onlineshop.domain\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.302\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32228A78-81F0-438D-888C-9DE8CB8515BD}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|c:\\users\\temoi\\desktop\\onlineshop\\onlineshop.ge\\onlineshop.infrastructure\\onlineshop.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{32228A78-81F0-438D-888C-9DE8CB8515BD}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|solutionrelative:onlineshop.infrastructure\\onlineshop.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A69433FA-6E04-4F2C-86D0-F0F8717D8EDE}|OnlineShop.Persistence\\OnlineShop.Persistence.csproj|c:\\users\\temoi\\desktop\\onlineshop\\onlineshop.ge\\onlineshop.persistence\\onlineshop.persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A69433FA-6E04-4F2C-86D0-F0F8717D8EDE}|OnlineShop.Persistence\\OnlineShop.Persistence.csproj|solutionrelative:onlineshop.persistence\\onlineshop.persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32228A78-81F0-438D-888C-9DE8CB8515BD}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|c:\\users\\temoi\\desktop\\onlineshop\\onlineshop.ge\\onlineshop.infrastructure\\onlineshop.infrastructure.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{32228A78-81F0-438D-888C-9DE8CB8515BD}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|solutionrelative:onlineshop.infrastructure\\onlineshop.infrastructure.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Temoi\\.nuget\\packages\\system.diagnostics.diagnosticsource\\9.0.0\\buildTransitive\\netcoreapp2.0\\System.Diagnostics.DiagnosticSource.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Temoi\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\9.0.0\\buildTransitive\\netcoreapp2.0\\Microsoft.Extensions.Hosting.Abstractions.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Temoi\\.nuget\\packages\\microsoft.extensions.options\\9.0.0\\buildTransitive\\netcoreapp2.0\\Microsoft.Extensions.Options.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Temoi\\.nuget\\packages\\microsoft.extensions.diagnostics.abstractions\\9.0.0\\buildTransitive\\netcoreapp2.0\\Microsoft.Extensions.Diagnostics.Abstractions.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Temoi\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.0\\buildTransitive\\netcoreapp2.0\\Microsoft.Extensions.DependencyInjection.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B1244E5-ACF6-42C6-AD1D-D48D0BEDCEED}|OnlineShop.Application\\OnlineShop.Application.csproj|c:\\users\\temoi\\desktop\\onlineshop\\onlineshop.ge\\onlineshop.application\\products\\responses\\productresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B1244E5-ACF6-42C6-AD1D-D48D0BEDCEED}|OnlineShop.Application\\OnlineShop.Application.csproj|solutionrelative:onlineshop.application\\products\\responses\\productresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A69433FA-6E04-4F2C-86D0-F0F8717D8EDE}|OnlineShop.Persistence\\OnlineShop.Persistence.csproj|c:\\users\\temoi\\desktop\\onlineshop\\onlineshop.ge\\onlineshop.persistence\\conncectionstrings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A69433FA-6E04-4F2C-86D0-F0F8717D8EDE}|OnlineShop.Persistence\\OnlineShop.Persistence.csproj|solutionrelative:onlineshop.persistence\\conncectionstrings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Application\\Products\\IProductService.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Application\\Products\\IProductService.cs",
+              "ToolTip": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Application\\Products\\IProductService.cs",
+              "RelativeToolTip": "OnlineShop.Application\\Products\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T12:46:33.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ICartItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Application\\CartItems\\Repositories\\ICartItemRepository.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Application\\CartItems\\Repositories\\ICartItemRepository.cs",
+              "ToolTip": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Application\\CartItems\\Repositories\\ICartItemRepository.cs",
+              "RelativeToolTip": "OnlineShop.Application\\CartItems\\Repositories\\ICartItemRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T12:45:34.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CartItemService.cs",
+              "DocumentMoniker": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Application\\CartItems\\CartItemService.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Application\\CartItems\\CartItemService.cs",
+              "ToolTip": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Application\\CartItems\\CartItemService.cs",
+              "RelativeToolTip": "OnlineShop.Application\\CartItems\\CartItemService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T12:43:36.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Application\\Products\\ProductService.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Application\\Products\\ProductService.cs",
+              "ToolTip": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Application\\Products\\ProductService.cs",
+              "RelativeToolTip": "OnlineShop.Application\\Products\\ProductService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwBsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T05:09:46.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Infrastructure\\Products\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\Products\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Infrastructure\\Products\\ProductRepository.cs",
+              "RelativeToolTip": "OnlineShop.Infrastructure\\Products\\ProductRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T05:34:57.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Infrastructure\\Users\\UserRepository.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\Users\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Infrastructure\\Users\\UserRepository.cs",
+              "RelativeToolTip": "OnlineShop.Infrastructure\\Users\\UserRepository.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAMwFgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T09:34:32.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Ge.API\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Ge.API\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Ge.API\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "OnlineShop.Ge.API\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T13:11:00.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CartItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Infrastructure\\CartItems\\CartItemRepository.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\CartItems\\CartItemRepository.cs",
+              "ToolTip": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Infrastructure\\CartItems\\CartItemRepository.cs",
+              "RelativeToolTip": "OnlineShop.Infrastructure\\CartItems\\CartItemRepository.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwCQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T12:48:56.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ICartItemService.cs",
+              "DocumentMoniker": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Application\\CartItems\\ICartItemService.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Application\\CartItems\\ICartItemService.cs",
+              "ToolTip": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Application\\CartItems\\ICartItemService.cs",
+              "RelativeToolTip": "OnlineShop.Application\\CartItems\\ICartItemService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T12:43:22.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ShopDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Persistence\\Context\\ShopDbContext.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Persistence\\Context\\ShopDbContext.cs",
+              "ToolTip": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Persistence\\Context\\ShopDbContext.cs",
+              "RelativeToolTip": "OnlineShop.Persistence\\Context\\ShopDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T08:57:24.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Application\\Products\\Repositories\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Application\\Products\\Repositories\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Application\\Products\\Repositories\\IProductRepository.cs",
+              "RelativeToolTip": "OnlineShop.Application\\Products\\Repositories\\IProductRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T05:08:14.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Ge.API\\Program.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Ge.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Ge.API\\Program.cs",
+              "RelativeToolTip": "OnlineShop.Ge.API\\Program.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T09:01:44.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Domain\\CartItems\\CartItem.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Domain\\CartItems\\CartItem.cs",
+              "ToolTip": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Domain\\CartItems\\CartItem.cs",
+              "RelativeToolTip": "OnlineShop.Domain\\CartItems\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T04:33:36.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Domain\\Products\\Product.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Domain\\Products\\Product.cs",
+              "ToolTip": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Domain\\Products\\Product.cs",
+              "RelativeToolTip": "OnlineShop.Domain\\Products\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T09:05:37.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OnlineShop.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Domain\\OnlineShop.Domain.csproj",
+              "RelativeDocumentMoniker": "OnlineShop.Domain\\OnlineShop.Domain.csproj",
+              "ToolTip": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Domain\\OnlineShop.Domain.csproj",
+              "RelativeToolTip": "OnlineShop.Domain\\OnlineShop.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-06T04:44:01.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OnlineShop.Ge.API.csproj",
+              "DocumentMoniker": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Ge.API\\OnlineShop.Ge.API.csproj",
+              "RelativeDocumentMoniker": "OnlineShop.Ge.API\\OnlineShop.Ge.API.csproj",
+              "ToolTip": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Ge.API\\OnlineShop.Ge.API.csproj",
+              "RelativeToolTip": "OnlineShop.Ge.API\\OnlineShop.Ge.API.csproj",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAkAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-24T09:07:55.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Ge.API\\Middlewares\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Ge.API\\Middlewares\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Ge.API\\Middlewares\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "OnlineShop.Ge.API\\Middlewares\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T05:36:39.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GlobalExceptionHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Application\\ExceptionHandling\\GlobalExceptionHandler.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Application\\ExceptionHandling\\GlobalExceptionHandler.cs",
+              "ToolTip": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Application\\ExceptionHandling\\GlobalExceptionHandler.cs",
+              "RelativeToolTip": "OnlineShop.Application\\ExceptionHandling\\GlobalExceptionHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T05:11:48.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProductConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Persistence\\Configurations\\ProductConfiguration.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Persistence\\Configurations\\ProductConfiguration.cs",
+              "ToolTip": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Persistence\\Configurations\\ProductConfiguration.cs",
+              "RelativeToolTip": "OnlineShop.Persistence\\Configurations\\ProductConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T05:33:07.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Persistence\\Configurations\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Persistence\\Configurations\\UserConfiguration.cs",
+              "ToolTip": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Persistence\\Configurations\\UserConfiguration.cs",
+              "RelativeToolTip": "OnlineShop.Persistence\\Configurations\\UserConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T05:33:06.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CustomPasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Application\\Users\\CustomPasswordHasher.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Application\\Users\\CustomPasswordHasher.cs",
+              "ToolTip": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Application\\Users\\CustomPasswordHasher.cs",
+              "RelativeToolTip": "OnlineShop.Application\\Users\\CustomPasswordHasher.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAvwA4AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T05:09:08.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Application\\Users\\UserService.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Application\\Users\\UserService.cs",
+              "ToolTip": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Application\\Users\\UserService.cs",
+              "RelativeToolTip": "OnlineShop.Application\\Users\\UserService.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAASwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T13:27:22.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "OnlineShop.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Application\\OnlineShop.Application.csproj",
+              "RelativeDocumentMoniker": "OnlineShop.Application\\OnlineShop.Application.csproj",
+              "ToolTip": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Application\\OnlineShop.Application.csproj",
+              "RelativeToolTip": "OnlineShop.Application\\OnlineShop.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-06T04:44:47.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Domain\\Users\\User.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Domain\\Users\\User.cs",
+              "ToolTip": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Domain\\Users\\User.cs",
+              "RelativeToolTip": "OnlineShop.Domain\\Users\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T04:35:38.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Application\\Users\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Application\\Users\\Repositories\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Application\\Users\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "OnlineShop.Application\\Users\\Repositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T13:26:53.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ShopDbSeed.cs",
+              "DocumentMoniker": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Persistence\\Seed\\ShopDbSeed.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Persistence\\Seed\\ShopDbSeed.cs",
+              "ToolTip": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Persistence\\Seed\\ShopDbSeed.cs",
+              "RelativeToolTip": "OnlineShop.Persistence\\Seed\\ShopDbSeed.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAEwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T13:56:38.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Microsoft.PackageDependencyResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.302\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.302\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.302\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.302\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ViewState": "AgIAAPoAAAAAAAAAAAAqwAkBAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-08-06T04:44:25.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "OnlineShop.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj",
+              "RelativeToolTip": "OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-06T04:43:55.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "OnlineShop.Persistence.csproj",
+              "DocumentMoniker": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Persistence\\OnlineShop.Persistence.csproj",
+              "RelativeDocumentMoniker": "OnlineShop.Persistence\\OnlineShop.Persistence.csproj",
+              "ToolTip": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Persistence\\OnlineShop.Persistence.csproj",
+              "RelativeToolTip": "OnlineShop.Persistence\\OnlineShop.Persistence.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-24T08:53:54.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "OnlineShop.Infrastructure",
+              "DocumentMoniker": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj",
+              "RelativeToolTip": "OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-06T04:48:51.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "System.Diagnostics.DiagnosticSource.targets",
+              "DocumentMoniker": "C:\\Users\\Temoi\\.nuget\\packages\\system.diagnostics.diagnosticsource\\9.0.0\\buildTransitive\\netcoreapp2.0\\System.Diagnostics.DiagnosticSource.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\system.diagnostics.diagnosticsource\\9.0.0\\buildTransitive\\netcoreapp2.0\\System.Diagnostics.DiagnosticSource.targets",
+              "ToolTip": "C:\\Users\\Temoi\\.nuget\\packages\\system.diagnostics.diagnosticsource\\9.0.0\\buildTransitive\\netcoreapp2.0\\System.Diagnostics.DiagnosticSource.targets",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\system.diagnostics.diagnosticsource\\9.0.0\\buildTransitive\\netcoreapp2.0\\System.Diagnostics.DiagnosticSource.targets",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-08-06T04:40:40.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Microsoft.Extensions.Hosting.Abstractions.targets",
+              "DocumentMoniker": "C:\\Users\\Temoi\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\9.0.0\\buildTransitive\\netcoreapp2.0\\Microsoft.Extensions.Hosting.Abstractions.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\9.0.0\\buildTransitive\\netcoreapp2.0\\Microsoft.Extensions.Hosting.Abstractions.targets",
+              "ToolTip": "C:\\Users\\Temoi\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\9.0.0\\buildTransitive\\netcoreapp2.0\\Microsoft.Extensions.Hosting.Abstractions.targets",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\9.0.0\\buildTransitive\\netcoreapp2.0\\Microsoft.Extensions.Hosting.Abstractions.targets",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-08-06T04:44:35.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Microsoft.Extensions.Options.targets",
+              "DocumentMoniker": "C:\\Users\\Temoi\\.nuget\\packages\\microsoft.extensions.options\\9.0.0\\buildTransitive\\netcoreapp2.0\\Microsoft.Extensions.Options.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\microsoft.extensions.options\\9.0.0\\buildTransitive\\netcoreapp2.0\\Microsoft.Extensions.Options.targets",
+              "ToolTip": "C:\\Users\\Temoi\\.nuget\\packages\\microsoft.extensions.options\\9.0.0\\buildTransitive\\netcoreapp2.0\\Microsoft.Extensions.Options.targets",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\microsoft.extensions.options\\9.0.0\\buildTransitive\\netcoreapp2.0\\Microsoft.Extensions.Options.targets",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-08-06T04:37:35.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Microsoft.Extensions.Diagnostics.Abstractions.targets",
+              "DocumentMoniker": "C:\\Users\\Temoi\\.nuget\\packages\\microsoft.extensions.diagnostics.abstractions\\9.0.0\\buildTransitive\\netcoreapp2.0\\Microsoft.Extensions.Diagnostics.Abstractions.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\microsoft.extensions.diagnostics.abstractions\\9.0.0\\buildTransitive\\netcoreapp2.0\\Microsoft.Extensions.Diagnostics.Abstractions.targets",
+              "ToolTip": "C:\\Users\\Temoi\\.nuget\\packages\\microsoft.extensions.diagnostics.abstractions\\9.0.0\\buildTransitive\\netcoreapp2.0\\Microsoft.Extensions.Diagnostics.Abstractions.targets",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\microsoft.extensions.diagnostics.abstractions\\9.0.0\\buildTransitive\\netcoreapp2.0\\Microsoft.Extensions.Diagnostics.Abstractions.targets",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-08-06T04:37:16.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Microsoft.Extensions.DependencyInjection.targets",
+              "DocumentMoniker": "C:\\Users\\Temoi\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.0\\buildTransitive\\netcoreapp2.0\\Microsoft.Extensions.DependencyInjection.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.0\\buildTransitive\\netcoreapp2.0\\Microsoft.Extensions.DependencyInjection.targets",
+              "ToolTip": "C:\\Users\\Temoi\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.0\\buildTransitive\\netcoreapp2.0\\Microsoft.Extensions.DependencyInjection.targets",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.0\\buildTransitive\\netcoreapp2.0\\Microsoft.Extensions.DependencyInjection.targets",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-08-06T04:37:11.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ProductResponseModel.cs",
+              "DocumentMoniker": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Application\\Products\\Responses\\ProductResponseModel.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Application\\Products\\Responses\\ProductResponseModel.cs",
+              "ToolTip": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Application\\Products\\Responses\\ProductResponseModel.cs",
+              "RelativeToolTip": "OnlineShop.Application\\Products\\Responses\\ProductResponseModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T12:20:53.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ConncectionStrings.cs",
+              "DocumentMoniker": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Persistence\\ConncectionStrings.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Persistence\\ConncectionStrings.cs",
+              "ToolTip": "C:\\Users\\Temoi\\Desktop\\OnlineShop\\OnlineShop.Ge\\OnlineShop.Persistence\\ConncectionStrings.cs",
+              "RelativeToolTip": "OnlineShop.Persistence\\ConncectionStrings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T09:00:03.497Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
