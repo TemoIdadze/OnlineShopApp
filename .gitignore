@@ -1,95 +1,98 @@
-# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+# ===========================================
+# OnlineShop Monorepo - Angular + .NET
+# ===========================================
 
-# Compiled output
-/dist
-/tmp
-/out-tsc
-/bazel-out
+# ===========================================
+# Node / Angular (Frontend)
+# ===========================================
+node_modules/
+dist/
+.angular/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
 
-# Node
-/node_modules
-npm-debug.log
-yarn-error.log
+# ===========================================
+# .NET / Visual Studio (Backend)
+# ===========================================
 
-# IDEs and editors
-.idea/
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
-
-# Visual Studio Code
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-.history/*
-
-# Miscellaneous
-/.angular/cache
-.sass-cache/
-/connect.lock
-/coverage
-/libpeerconnection.log
-testem.log
-/typings
-
-# System files
-.DS_Store
-Thumbs.db
-
-# ================================
-# .NET / Visual Studio
-# ================================
-
-## Build results
-.vs/
+# Build outputs
 bin/
 obj/
 out/
+publish/
 
-## User-specific files
+# Visual Studio
+.vs/
 *.user
 *.suo
 *.userosscache
 *.sln.docstates
 
-## Rider / VS Code
-.idea/
-.vscode/
-
-## ASP.NET
+# ASP.NET - keep main appsettings.json
 appsettings.Development.json
 appsettings.Local.json
-appsettings.*.json
+appsettings.Production.json
 
-## Logs
-*.log
-logs/
-
-## Secrets
-secrets.json
-*.pfx
-*.snk
-
-## OS
-.DS_Store
-Thumbs.db
-
-## Test results
-TestResults/
-
-## NuGet
+# NuGet
+*.nupkg
 .nuget/
 packages/
 
-## Publish output
-publish/
+# Test results
+TestResults/
+*.trx
 
-## Database
+# Database files
 *.mdf
 *.ldf
 *.sqlite
+
+# ===========================================
+# IDEs and Editors
+# ===========================================
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+.history/
+
+# ===========================================
+# Secrets and Credentials
+# ===========================================
+secrets.json
+*.pfx
+*.snk
+*.pem
+*.key
+
+# ===========================================
+# Logs
+# ===========================================
+*.log
+logs/
+
+# ===========================================
+# OS Generated
+# ===========================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ===========================================
+# Misc
+# ===========================================
+.sass-cache/
+coverage/
+.cache/
+*.tmp
+*.temp
+.claude/
+.qodo/
