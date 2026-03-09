@@ -96,3 +96,4 @@ coverage/
 *.temp
 .claude/
 .qodo/
+repopack-output.txt
