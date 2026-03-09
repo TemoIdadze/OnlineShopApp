@@ -1,3 +1,3 @@
 export const environment = {
-    apiBaseUrl:'https://localhost:7029/api'
+    apiBaseUrl: 'https://onlineshop-api-k3cy.onrender.com/api'
 };
