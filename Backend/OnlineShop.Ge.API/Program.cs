@@ -20,9 +20,9 @@ Log.Logger = new LoggerConfiguration()
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Host.UseSerilog();  // ? Removed unnecessary 'object value = ' assignment
+builder.Host.UseSerilog();  
 
-// Register Mapster mappings
+
 MappingConfig.RegisterMappings();
 
 builder.Services.AddControllers();
@@ -56,24 +56,24 @@ builder.Services.AddSwaggerGen(option =>
     });
 });
 
-// Replace your custom AddTokenAuthentication with standard AddJwtBearer
+
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
         options.TokenValidationParameters = new TokenValidationParameters
         {
             ValidateIssuer = true,
-            ValidIssuer = "localhost",  // ? Matches your token's "iss"
+            ValidIssuer = "localhost",  
             ValidateAudience = true,
-            ValidAudience = "localhost",  // ? Matches your token's "aud"
+            ValidAudience = "localhost",
             ValidateLifetime = true,
             ValidateIssuerSigningKey = true,
             IssuerSigningKey = new SymmetricSecurityKey(
-                Encoding.UTF8.GetBytes(builder.Configuration["JWTConfiguration:Secret"]!)),  // ? Use UTF8 and full path from config
-            ClockSkew = TimeSpan.FromMinutes(5)  // ? Allow small time differences
+                Encoding.UTF8.GetBytes(builder.Configuration["JWTConfiguration:Secret"]!)),  
+            ClockSkew = TimeSpan.FromMinutes(5) 
         };
 
-        // Add logging for authentication failures (critical for debugging)
+        
         options.Events = new JwtBearerEvents
         {
             OnAuthenticationFailed = ctx =>
@@ -92,19 +92,31 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 
-// Keep this for JWTHelper injection
+
 builder.Services.Configure<JWTConfiguration>(builder.Configuration.GetSection(nameof(JWTConfiguration)));
 
 builder.Services.Configure<ConnectionStrings>(builder.Configuration.GetSection(nameof(ConnectionStrings)));
 
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-if (string.IsNullOrEmpty(connectionString))
+var supabaseConnection = builder.Configuration.GetConnectionString("SupabaseConnection");
+var defaultConnection = builder.Configuration.GetConnectionString("DefaultConnection");
+
+if (!string.IsNullOrEmpty(supabaseConnection))
 {
-    throw new InvalidOperationException("DefaultConnection connection string is not configured.");
+    // Production: Supabase PostgreSQL
+    builder.Services.AddDbContext<ShopDbContext>(options =>
+        options.UseNpgsql(supabaseConnection));
+}
+else if (!string.IsNullOrEmpty(defaultConnection))
+{
+    // Local: SQL Server
+    builder.Services.AddDbContext<ShopDbContext>(options =>
+        options.UseSqlServer(defaultConnection));
+}
+else
+{
+    throw new InvalidOperationException("No database connection string is configured.");
 }
 
-builder.Services.AddDbContext<ShopDbContext>(options =>
-    options.UseSqlServer(connectionString));
 
 builder.Services.AddCors(options =>
 {
