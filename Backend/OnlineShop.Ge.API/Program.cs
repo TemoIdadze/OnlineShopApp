@@ -146,13 +146,11 @@ if (app.Environment.IsDevelopment())
     app.UseHttpsRedirection();
 }
 
-app.UseDefaultFiles();
+
 app.UseStaticFiles();
 
-// Move CORS before Authentication
 app.UseCors("AllowAllCors");
 
-// Authentication & Authorization after CORS
 app.UseAuthentication();
 app.UseAuthorization();
 
