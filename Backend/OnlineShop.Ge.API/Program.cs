@@ -130,20 +130,15 @@ catch (Exception ex)
 }
 
 app.UseMiddleware<ExceptionMiddleware>();
-
 app.UseSwagger();
 app.UseSwaggerUI();
-
-
-app.UseStaticFiles();
 app.UseRouting();
 app.UseCors("AllowAllCors");
 app.UseAuthentication();
 app.UseAuthorization();
-
-
+app.UseStaticFiles();
+app.MapMethods("/health", ["GET", "HEAD"], () => Results.Ok("healthy"));
 app.MapControllers();
-
 try
 {
     Log.Information("Starting web application...");
