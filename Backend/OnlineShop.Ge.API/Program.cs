@@ -20,8 +20,7 @@ Log.Logger = new LoggerConfiguration()
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Host.UseSerilog();  
-
+builder.Host.UseSerilog();
 
 MappingConfig.RegisterMappings();
 
@@ -56,24 +55,22 @@ builder.Services.AddSwaggerGen(option =>
     });
 });
 
-
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
         options.TokenValidationParameters = new TokenValidationParameters
         {
             ValidateIssuer = true,
-            ValidIssuer = "localhost",  
+            ValidIssuer = "localhost",
             ValidateAudience = true,
             ValidAudience = "localhost",
             ValidateLifetime = true,
             ValidateIssuerSigningKey = true,
             IssuerSigningKey = new SymmetricSecurityKey(
-                Encoding.UTF8.GetBytes(builder.Configuration["JWTConfiguration:Secret"]!)),  
-            ClockSkew = TimeSpan.FromMinutes(5) 
+                Encoding.UTF8.GetBytes(builder.Configuration["JWTConfiguration:Secret"]!)),
+            ClockSkew = TimeSpan.FromMinutes(5)
         };
 
-        
         options.Events = new JwtBearerEvents
         {
             OnAuthenticationFailed = ctx =>
@@ -92,9 +89,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 
-
 builder.Services.Configure<JWTConfiguration>(builder.Configuration.GetSection(nameof(JWTConfiguration)));
-
 builder.Services.Configure<ConnectionStrings>(builder.Configuration.GetSection(nameof(ConnectionStrings)));
 
 var supabaseConnection = builder.Configuration.GetConnectionString("SupabaseConnection");
@@ -102,13 +97,11 @@ var defaultConnection = builder.Configuration.GetConnectionString("DefaultConnec
 
 if (!string.IsNullOrEmpty(supabaseConnection))
 {
-    // Production: Supabase PostgreSQL
     builder.Services.AddDbContext<ShopDbContext>(options =>
         options.UseNpgsql(supabaseConnection));
 }
 else if (!string.IsNullOrEmpty(defaultConnection))
 {
-    // Local: SQL Server
     builder.Services.AddDbContext<ShopDbContext>(options =>
         options.UseSqlServer(defaultConnection));
 }
@@ -116,7 +109,6 @@ else
 {
     throw new InvalidOperationException("No database connection string is configured.");
 }
-
 
 builder.Services.AddCors(options =>
 {
@@ -139,19 +131,17 @@ catch (Exception ex)
 
 app.UseMiddleware<ExceptionMiddleware>();
 
-
 app.UseSwagger();
 app.UseSwaggerUI();
 
 app.UseStaticFiles();
 app.UseRouting();
 app.UseCors("AllowAllCors");
-
 app.UseAuthentication();
 app.UseAuthorization();
 
+app.MapGet("/health", () => Results.Ok("healthy"));
 app.MapControllers();
-
 
 try
 {
