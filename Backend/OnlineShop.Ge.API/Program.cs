@@ -139,16 +139,12 @@ catch (Exception ex)
 
 app.UseMiddleware<ExceptionMiddleware>();
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-    app.UseHttpsRedirection();
-}
 
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.UseStaticFiles();
-
+app.UseRouting();
 app.UseCors("AllowAllCors");
 
 app.UseAuthentication();
