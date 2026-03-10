@@ -119,7 +119,7 @@ builder.Services.AddCors(options =>
 });
 
 var app = builder.Build();
-
+app.MapMethods("/health", ["GET", "HEAD"], () => Results.Ok("healthy"));
 try
 {
     ShopDbSeed.Initialize(app.Services);
@@ -137,7 +137,7 @@ app.UseCors("AllowAllCors");
 app.UseAuthentication();
 app.UseAuthorization();
 app.UseStaticFiles();
-app.MapMethods("/health", ["GET", "HEAD"], () => Results.Ok("healthy"));
+
 app.MapControllers();
 try
 {
