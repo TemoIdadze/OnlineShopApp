@@ -134,13 +134,15 @@ app.UseMiddleware<ExceptionMiddleware>();
 app.UseSwagger();
 app.UseSwaggerUI();
 
+app.MapGet("/health", () => Results.Ok("healthy"));
+
 app.UseStaticFiles();
 app.UseRouting();
 app.UseCors("AllowAllCors");
 app.UseAuthentication();
 app.UseAuthorization();
 
-app.MapGet("/health", () => Results.Ok("healthy"));
+
 app.MapControllers();
 
 try
