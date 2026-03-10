@@ -134,7 +134,7 @@ app.UseMiddleware<ExceptionMiddleware>();
 app.UseSwagger();
 app.UseSwaggerUI();
 
-app.MapGet("/health", () => Results.Ok("healthy"));
+app.MapMethods("/health", ["GET", "HEAD"], () => Results.Ok("healthy"));
 
 app.UseStaticFiles();
 app.UseRouting();
