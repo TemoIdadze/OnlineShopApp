@@ -94,6 +94,5 @@ coverage/
 .cache/
 *.tmp
 *.temp
-.claude/
 .qodo/
 repopack-output.txt
